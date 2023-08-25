@@ -10,7 +10,8 @@ export default {
         'custom-gradient':"linear-gradient(to bottom,  rgba(30,39,107,1) 21.8%, rgba(77,118,221,1) 100.2% )"
       },
       spacing: {
-        'container': '2rem',
+        'd&t-container': '80%',
+        'm-container': '90%'
       }
     },
   },

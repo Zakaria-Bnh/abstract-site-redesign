@@ -1,16 +1,16 @@
+import "./styles.css";
+import Header from "./components/Header/Header"
+import Hero from "./components/Main/Hero/Hero"
 
-import React from "react"
-const App = () => {
-  return (
-    <div className="max-w-[1175px] md:max-w-[90vw] bg-custom-gradient h-[100vh]">
-      hello world
-      <ul>
-        <li>hello zakaria how are you doing today</li>
-        <li>hello zakaria how are you doing today</li>
-        <li>hello zakaria how are you doing today</li>
-      </ul>
+
+
+const App = () => (
+  <div className="bg-custom-gradient bg-cover">
+    <div className="custom-container min-h-[200vh]">
+      <Header/>
+      <Hero />
     </div>
-  )
-}
+  </div>
+);
 
-export default App
+export default App;

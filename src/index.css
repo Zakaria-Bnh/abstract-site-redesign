@@ -38,6 +38,7 @@ a {
 }
 button, a {
     line-height: 1;
+    cursor: pointer;
 }
 input,
 button,

@@ -1,0 +1,12 @@
+
+
+.custom-container {
+    width: 90%;
+    /* -inline: 1rem; */
+    margin: auto;
+}
+@media (min-width: 769px) {
+    .custom-container {
+        width: min(80%, 1280px);
+    }
+}
