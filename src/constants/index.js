@@ -1,19 +1,45 @@
+import { CiscoLogo, MicrosoftLogo, wayfairLogo, Zendesklogo, docusignLogo, syncicon, planticon, clockicon } from "../assets";
 
+export const CompanyClients = [
+  {
+    alt: 'cisco logo',
+    logo: CiscoLogo
+  },
+  {
+    alt: 'Microsoft logo',
+    logo: MicrosoftLogo
+  },
+  {
+    alt: 'zendesk logo',
+    logo: Zendesklogo
+  },
+  {
+    alt: 'docusign logo',
+    logo: docusignLogo
+  },
+  {
+    alt: 'wayfair logo',
+    logo: wayfairLogo
+  }
+]
 
 export const abstractProductFeatures = [
   {
+    svg: clockicon,
     title: "Less files. More flow",
     content:
     "No more digging through Dropbox and Google Drive. Always know where to find “the latest,” so you can stay in your design flow.",
   },
   
   {
+    svg: planticon,
     title: "Design together, in real time.",
     content:
     "Explore and iterate in the same file at the same time, without losing the original. Simply create a branch, do your thing, then merge your changes when ready.",
   },
   
   {
+    svg: syncicon, 
     title: "terate with context.",
     content:
     "Know who made changes, when, and why. Compare changes side by side, resolve design conflicts, and merge work with precision.",

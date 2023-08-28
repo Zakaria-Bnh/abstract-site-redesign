@@ -7,13 +7,9 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'custom-gradient':"linear-gradient(to bottom,  rgba(30,39,107,1) 21.8%, rgba(77,118,221,1) 100.2% )"
-      },
-      spacing: {
-        'd&t-container': '80%',
-        'm-container': '90%'
+        'custom-gradient':"linear-gradient(to bottom, #1D69E9, #003366);"
       }
-    },
+    }
   },
   plugins: [],
 }
