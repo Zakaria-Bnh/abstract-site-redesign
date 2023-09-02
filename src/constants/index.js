@@ -1,4 +1,4 @@
-import { CiscoLogo, MicrosoftLogo, wayfairLogo, Zendesklogo, docusignLogo, syncicon, planticon, clockicon } from "../assets";
+import { CiscoLogo, MicrosoftLogo, wayfairLogo, Zendesklogo, docusignLogo, syncicon, planticon, clockicon, SalesBlack, CiscoBlack, BannerHealth, DesignInspiration, Blog, Usecases } from "../assets";
 
 export const CompanyClients = [
   {
@@ -48,16 +48,19 @@ export const abstractProductFeatures = [
 
 export const abstractAdvantages = [
     {
+        img: CiscoBlack,
         title: "Design system management",
         content: "How Cisco built an enterprise global design system",
         link: "Read Cisco’s Story"
     },
     {
+        img: SalesBlack,
         title: "Radical transparency",
         content: "How designers at Salesforce fostered trust and teamwork",
         link: "Read Saleforce’s Storyy"
     },
     {
+        img: BannerHealth,
         title: "Remote collaboration",
         content: "How Banner Health is navigating the remote future no one planned for",
         link: "Read Banner Health’s Story"
@@ -65,16 +68,19 @@ export const abstractAdvantages = [
 ]
 export const productDesignSection = [
     {
+        img: Usecases,
         title: "Customer Spotlight",
-        content: "Empowering design teams and transforming workflows with Abstract r",
+        content: "Empowering design teams and transforming workflows with Abstract",
         link: "Read their stories"
     },
     {
+        img: DesignInspiration,
         title: "Design Inspiration",
         content: "Scaling design ops, collaboration, and the impact of design",
         link: "Get inspired"
     },
     {
+        img: Blog,
         title: "Our Blog",
         content: "Stories, news, and tips from behind the Artboards",
         link: "Browse Abstract's blog"
@@ -128,15 +134,7 @@ export const footerLinks = [
         {
           name: "Website Terms of Use",
           link: "https://www.example.com/terms-of-use/",
-        },
-        {
-          name: "Contact Us",
-          link: "https://www.example.com/contact-us/",
-        },
-        {
-          name: "info@abstract.com",
-          link: "mailto:info@abstract.com",
-        },
+        }
       ],
     },
     {
@@ -161,4 +159,3 @@ export const footerLinks = [
       ],
     },
   ];
-export const CopyRightInfo = "© Copyright 2022 Abstract Studio Design, Inc. All rights reserved "
