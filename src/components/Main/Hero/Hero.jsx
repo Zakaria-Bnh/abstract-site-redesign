@@ -9,9 +9,6 @@ const Hero = () => {
         <h1 className="ff-playfair text-[3.5rem] md:text-[4rem] lg:text-[6rem] font-semibold  leading-[1.2] text-center md:text-start mb-4">
           True version control for Sketch files
         </h1>
-        <h1 className="ff-playfair text-[3.5rem] md:text-[4rem] lg:text-[6rem] font-semibold  leading-[1.2] text-center md:text-start mb-4">
-          this header is for testing 
-        </h1>
         <div className="flex gap-6 justify-center md:justify-start mb-8">
         <PrimaryButton href="/#" value="Start trial" />
         <SecondaryButton value="Download"/>
