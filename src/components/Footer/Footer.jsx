@@ -5,11 +5,11 @@ const Footer = () => {
   return (
     <footer className=" text-white pt-12 pb-12">
       <div className="flex flex-col md:flex-row items-center gap-8 mb-12">
-        <div className="flex flex-col items-center md:mr-12 gap-6 md:gap-8 m">
+        <div className="flex flex-col  md:mr-12 gap-6 md:gap-8 m">
           <a href="/home">
             <img src={AbstractLogo} alt="abtract logo" className="w-[10rem]" />
           </a>
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col">
             <h2 className="mb-2 text-[1.3rem] font-semibold">Contact Us</h2>
             <div className="flex gap-4 items-center">
               <img src={Envelope} alt="email contact" className="w-6" />
