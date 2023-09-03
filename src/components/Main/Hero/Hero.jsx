@@ -21,7 +21,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="md:absolute top-[16%] left-[70%] right-[-85%]">
-        <img className='md:absolute md:w-[50%] md:max-w-[550px]' src={baranchesHero} alt="branches hero" />
+        <img className='md:absolute md:w-[50%] md:max-w-[600px]' src={baranchesHero} alt="branches hero" />
       </div>
     </div>
   );
