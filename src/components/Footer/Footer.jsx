@@ -21,13 +21,14 @@ const Footer = () => {
         </div>
         <div className="flex-1 flex flex-wrap justify-around gap-8">
           {footerLinks.map((UsefulLinks) => (
-            <div>
+            <div key={UsefulLinks.index}>
               <h2 className="mb-3 text-[1.3rem] font-semibold">
                 {UsefulLinks.title}
               </h2>
               <ul>
                 {UsefulLinks.links.map((ItemLink, index) => (
                   <li
+                    key={`footerLinks-${index}-link`}
                     className={`${
                       index === UsefulLinks.links.length - 1 ? "" : "mb-2"
                     }`}

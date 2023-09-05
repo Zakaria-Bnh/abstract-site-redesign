@@ -16,7 +16,7 @@ const Hero = () => {
         <p className="mb-4">1 in 3 Fortune 500 companies use Sketch + Abstract</p>
         <div className="flex md:justify-start justify-center items-center flex-row flex-wrap gap-x-8 gap-y-3">
           {CompanyClients.map(company => (
-            <img className="w-[6rem] sm:w-[4rem] md:w-[5rem]" src={company.logo} alt={company.alt} />
+            <img className="w-[6rem] sm:w-[4rem] md:w-[5rem]" src={company.logo} key={company.alt} alt={company.alt} />
           ))}
         </div>
       </div>
